@@ -1,0 +1,30 @@
+.header {
+    padding: 15px 0;
+    grid-area: h;
+    background-color: #0d0d0d;
+}
+.headerInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerLogo {
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: flex-end;
+}
+.header__item {
+}
+
+.header__item + .header__item {
+    margin-left: 50px;
+}
+
+.header__link {
+    color: #fff;
+}

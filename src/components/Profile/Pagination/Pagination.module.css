@@ -1,0 +1,24 @@
+.pagination {
+    margin: 10px 0;
+}
+
+.paginationList {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationItem {
+}
+
+.paginationItem + .paginationItem {
+    margin-left: 10px;
+}
+
+.paginationLink {
+    color: #ffffff;
+}
+
+.paginationLink.active {
+    color: #daa520;
+}
