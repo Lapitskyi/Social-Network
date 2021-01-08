@@ -3,13 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import state, { subscribe } from './redux/state'
+import { addPost, updateNewPostText } from './redux/state'
+
+
+let rerenderEntireTre = (state) => {
+  ReactDOM.render(
+    <BrowserRouter>
+      <React.StrictMode>
+        <App state={state} addPost={addPost} updateNewPostText={updateNewPostText} />
+      </React.StrictMode>
+    </BrowserRouter>,
+    document.getElementById('root')
+  );
+}
+
+
+rerenderEntireTre(state);
+
+subscribe(rerenderEntireTre);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

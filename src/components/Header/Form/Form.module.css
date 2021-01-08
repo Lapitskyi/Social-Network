@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    align-items: flex-end;
+}
+.form__label {
+    color: #ffffff;
+}
+.form__input {
+}
+
+.form__btn {
+    align-items: start;
+    padding: 5px 20px;
+    border: 1px solid grey;
+    background-color: white;
+    margin-left: 25px;
+}

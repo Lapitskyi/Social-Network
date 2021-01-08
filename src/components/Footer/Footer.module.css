@@ -1,8 +1,6 @@
-.content {
-    grid-area: c;
-    background-color: rgb(247, 244, 244);
-}
-
-.content img {
-    width: 100%;
+.footer {
+    grid-area: f;
+    background-color: #0d0d0d;
+    padding: 15px 0;
+    color: red;
 }

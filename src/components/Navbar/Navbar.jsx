@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Navbar.module.css';
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -9,8 +9,8 @@ const Navbar = () => {
 
         <div className={s.about}>
             <img className={s.img} src="https://via.placeholder.com/150" />
-            <h2 className={s.fio}>Лапицкий Александр</h2>
-            <p className={s.text}> front-end разработка</p>
+            <h2 className={s.fio}>Фамилия имя</h2>
+            <p className={s.text}> Статус</p>
             <ul className={s.social}>
                 <li className={s.social__item}>
                     <img className={s.social__img} src="https://cdn3.iconfinder.com/data/icons/peelicons-glyph/512/facebook__social__media_social__media-128.png" />

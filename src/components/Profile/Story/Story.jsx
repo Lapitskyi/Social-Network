@@ -1,19 +1,10 @@
 import React from "react";
+import StoryItem from "./StoryItem/StoryItem"
 import s from "./Story.module.css"
 
 
 
-const StoryItem = (props) => {
-    return (
-        <li className={s.storyItem}>
-            <img className={s.storyImg} src="https://via.placeholder.com/140x195" alt="" />
-        </li>
-    )
-};
-
-
-
-const Story = () => {
+const Story = (props) => {
     return (
         <ul className={s.storyList}>
             <StoryItem />

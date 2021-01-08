@@ -6,11 +6,12 @@ import s from './Profile.module.css';
 
 
 
-const Profile = () => {
+const Profile = (props) => {
+
     return (
         <div>
             <Story />
-            <MyPosts />
+            <MyPosts state={props.state} addPost={props.addPost} updateNewPostText={props.updateNewPostText} />
             <Pagination />
         </div>)
 }

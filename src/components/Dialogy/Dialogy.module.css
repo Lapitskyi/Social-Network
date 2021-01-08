@@ -1,6 +1,7 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+
     column-gap: 20px;
     padding: 20px;
 }
@@ -10,40 +11,8 @@
     row-gap: 10px;
 }
 
-.userItem {
-}
-
-.userLink {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    align-items: center;
-
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.userLink.active {
-    color: #daa520;
-}
-
-.userImg {
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
-}
-
-.userName {
-    padding: 0 10px;
-    font-size: 14px;
-    line-height: 1.2;
-}
-
 .massegesList {
     padding: 10px;
     border-left: 1px solid grey;
-}
-
-.massegesItem {
-    padding: 10px;
+    height: 100%;
 }

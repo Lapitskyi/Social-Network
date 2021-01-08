@@ -3,10 +3,10 @@ import s from './Footer.module.css';
 
 
 
-const Footer = () => {
-    return <div className={s.item}>
-
-    </div>
+const Footer = (props) => {
+    return <footer className={s.footer}>
+        footer
+    </footer>
 }
 
 

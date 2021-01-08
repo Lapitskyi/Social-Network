@@ -3,14 +3,8 @@ import React from 'react';
 import s from './Post.module.css';
 
 
-const ActionPostItem = (props) => {
-    return (
-        <li className={s.actionPostItem}> {props.likeCount} </li>
-    )
-};
 
-
-const Posts = (props) => {
+const Post = (props) => {
     return (
         <div className={s.post}>
             {props.message}
@@ -33,4 +27,4 @@ const Posts = (props) => {
 }
 
 
-export default Posts;
+export default Post;
