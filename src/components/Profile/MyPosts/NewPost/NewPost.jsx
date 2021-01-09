@@ -27,23 +27,12 @@ const NewPost = (props) => {
     return (
 
         <div className={s.form}>
-            <textarea className={s.formText} onChange={onPostChange} ref={newPostElement} value={props.newPostText} />
+            <textarea className={s.formText} onChange={onPostChange} ref={newPostElement} value={props.newPostText} placeholder="Что у вас нового?" />
             <label className={s.inputLabel} >
                 <input className={s.formInput} type="file" />
             </label>
             <button className={s.formBtn} onClick={addPost}></button>
         </div>
-
-
-        // <form className={s.form}>
-        //     <textarea className={s.formText} onChange={onPostChange} ref={newPostElement} value={props.newPostText} placeholder="Что у вас нового?" />
-        //     {/* <textarea className={s.formText} placeholder="Что у вас нового?" ref={newPostElement} ></textarea> */}
-
-        //     <label className={s.inputLabel} >
-        //         <input className={s.formInput} type="file" />
-        //     </label>
-        //     <button className={s.formBtn} type="submit" onClick={addPost}></button>
-        // </form>
 
 
     )
