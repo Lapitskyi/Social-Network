@@ -11,7 +11,7 @@ import s from './MyPosts.module.css';
 
 const MyPosts = (props) => {
 
-    let postsArray = props.state.posts.map((post) =>
+    let postsArray = props.posts.map((post) =>
         <Post
             message={post.message}
             date={post.date}
@@ -21,7 +21,7 @@ const MyPosts = (props) => {
     return (
         <div >
             <div className={s.newPost}>
-                <NewPost state={props.state} addPost={props.addPost} newPostText={props.state.newPostText} updateNewPostText={props.updateNewPostText} />
+                <NewPost dispatch={props.dispatch} newPostText={props.newPostText} />
             </div>
 
 
