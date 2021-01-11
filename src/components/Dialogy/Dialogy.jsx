@@ -4,18 +4,22 @@ import DialogsItem from "./DialogsItem/DialogsItem";
 import MessagesItem from "./MessagesItem/MessagesItem";
 
 import s from './Dialogy.module.css';
-import {addMassegeCreate, NewMessageTextCreate} from "../../redux/state";
+import {addMassegeCreate, NewMessageTextCreate} from "../../redux/dialogs-reduser";
 
 
 const Dialogy = (props) => {
 
+    let state = props.store.getState().dialogPage;
 
-    let dialogsArray = props.state.dialogs.map((dialog) =>
+
+    let dialogsArray = state.dialogs.map((dialog) =>
         <DialogsItem
             img={dialog.img}
             name={dialog.name}
             id={dialog.id}/>);
-    let messagesArray = props.state.messages.map((message) =>
+
+
+    let messagesArray = state.messages.map((message) =>
         <MessagesItem
             message={message.massege}
 
@@ -23,12 +27,12 @@ const Dialogy = (props) => {
 
 
     let addMassege = () => {
-        props.dispatch(addMassegeCreate());
+        props.store.dispatch(addMassegeCreate());
     }
 
     let onMessageChange = (e) => {
         let body = e.target.value;
-        props.dispatch(NewMessageTextCreate(body));
+        props.store.dispatch(NewMessageTextCreate(body));
     }
 
 
@@ -48,10 +52,13 @@ const Dialogy = (props) => {
                 <div className={s.form}>
                     <textarea className={s.formText}
                               onChange={onMessageChange}
-                              value={props.newMessageText}
-                              placeholder="Enter text">
+                              value={state.newMessageText}
+                              placeholder="Enter text" />
 
-                    </textarea>
+
+                    <label className={s.inputLabel}>
+                        <input className={s.formInput} type="file"/>
+                    </label>
                     <button className={s.formBtn} onClick={addMassege}>Send</button>
                 </div>
 

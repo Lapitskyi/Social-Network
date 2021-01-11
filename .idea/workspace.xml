@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc833251-76db-469b-89e7-d50dfdf8c855" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reduser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reduser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\react\01\my-app\src\redux" />
       <recent name="C:\react\01\my-app\src\components\Music" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -54,7 +58,9 @@
       <workItem from="1608331533058" duration="5491000" />
       <workItem from="1608378566053" duration="1197000" />
       <workItem from="1608385343345" duration="440000" />
-      <workItem from="1610303375961" duration="16123000" />
+      <workItem from="1610303375961" duration="16311000" />
+      <workItem from="1610366657440" duration="2437000" />
+      <workItem from="1610402428931" duration="2547000" />
     </task>
     <servers />
   </component>
@@ -71,5 +77,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
