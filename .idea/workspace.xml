@@ -5,10 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
       <workItem from="1608331533058" duration="5491000" />
       <workItem from="1608378566053" duration="1197000" />
       <workItem from="1608385343345" duration="440000" />
-      <workItem from="1610303375961" duration="12386000" />
+      <workItem from="1610303375961" duration="16123000" />
     </task>
     <servers />
   </component>
