@@ -2,26 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc833251-76db-469b-89e7-d50dfdf8c855" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reduser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/profile-reduser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/navbar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/NavBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reduser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reduser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1lqjTZ2fjz9pLKdqjeaiEOJi7vh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +67,23 @@
       <recent name="C:\react\01\my-app\src\components\News" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +97,9 @@
       <workItem from="1608385343345" duration="440000" />
       <workItem from="1610303375961" duration="16311000" />
       <workItem from="1610366657440" duration="2437000" />
-      <workItem from="1610402428931" duration="2547000" />
+      <workItem from="1610402428931" duration="5777000" />
+      <workItem from="1610444940630" duration="4247000" />
+      <workItem from="1610471426893" duration="10454000" />
     </task>
     <servers />
   </component>

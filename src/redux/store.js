@@ -1,19 +1,41 @@
-import profileReducer from "./profile-reduser";
-import dialogsReducer from "./dialogs-reduser";
+import profileReducer from "./profile-reducer";
+import dialogsReducer from "./dialogs-reducer";
+import React from "react";
 
 
 let store = {
     _state: {
+
+        navBar: {
+            users: [
+                {
+                    id: 1,
+                    img: "https://cdn3.iconfinder.com/data/icons/peelicons-glyph/512/facebook__social__media_social__media-128.png",
+                    lastName: "",
+                    firstName: "",
+                    status: "",
+                    social: [
+                        {
+                            id: 1,
+                            icon:"",
+                            link: "https://uk-ua.facebook.com/",
+                        }
+                    ],
+                }
+            ]
+        },
+
+
         dialogPage: {
             photos: [
                 {id: 1, img: "https://via.placeholder.com/70"}
             ],
 
             dialogs: [
-                {id: 1, name: "Andrei"},
-                {id: 2, name: "Natasha"},
-                {id: 3, name: "Igor"},
-                {id: 4, name: "Sasha"},
+                {id: 1,img: "https://via.placeholder.com/70", name: "Andrei"},
+                {id: 2,img: "https://via.placeholder.com/70", name: "Natasha"},
+                {id: 3,img: "https://via.placeholder.com/70", name: "Igor"},
+                {id: 4,img: "https://via.placeholder.com/70", name: "Sasha"},
             ],
 
             messages: [
@@ -61,10 +83,6 @@ let store = {
 
     }
 }
-
-// если функция только возвращает записует сокращенно
-
-
 
 
 window.state = store;

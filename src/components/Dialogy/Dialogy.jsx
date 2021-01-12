@@ -4,11 +4,10 @@ import DialogsItem from "./DialogsItem/DialogsItem";
 import MessagesItem from "./MessagesItem/MessagesItem";
 
 import s from './Dialogy.module.css';
-import {addMassegeCreate, NewMessageTextCreate} from "../../redux/dialogs-reduser";
+import {addMassegeCreate, NewMessageTextCreate} from "../../redux/dialogs-reducer";
 
 
 const Dialogy = (props) => {
-
     let state = props.store.getState().dialogPage;
 
 
@@ -53,7 +52,7 @@ const Dialogy = (props) => {
                     <textarea className={s.formText}
                               onChange={onMessageChange}
                               value={state.newMessageText}
-                              placeholder="Enter text" />
+                              placeholder="Enter text"/>
 
 
                     <label className={s.inputLabel}>
