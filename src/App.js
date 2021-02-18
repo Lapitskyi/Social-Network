@@ -4,11 +4,12 @@ import Header from './components/Header/Header';
 import NavBar from './components/Navbar/NavBar';
 import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/Footer';
-import Dialogy from "./components/Dialogy/Dialogy";
+
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import {Route} from "react-router-dom"
 import Settings from "./components/Settings/Settings";
+import DialogyContainer from "./components/Dialogy/DialogyContainer";
 
 
 const App = (props) => {
@@ -20,13 +21,10 @@ const App = (props) => {
             <NavBar store={props.store}/>
             <div className="app-wrapper-content">
                 <Route path='/profile'
-                       render={() => <Profile
-
-                           profilePage={props.state.profilePage}
-                           dispatch={props.dispatch}/>}/>
+                       render={() => <Profile  />}/>
 
                 <Route path='/dialogy'
-                       render={() => <Dialogy store={props.store}/>}/>
+                       render={() => <DialogyContainer />}/>
 
                 <Route path='/news' render={() => <News/>}/>
                 <Route path='/music' render={() => <Music/>}/>

@@ -4,11 +4,10 @@ import DialogsItem from "./DialogsItem/DialogsItem";
 import MessagesItem from "./MessagesItem/MessagesItem";
 
 import s from './Dialogy.module.css';
-import {addMassegeCreate, NewMessageTextCreate} from "../../redux/dialogs-reducer";
 
 
 const Dialogy = (props) => {
-    let state = props.store.getState().dialogPage;
+    let state = props.dialogPage;
 
 
     let dialogsArray = state.dialogs.map((dialog) =>
@@ -25,13 +24,13 @@ const Dialogy = (props) => {
             id={message.id}/>);
 
 
-    let addMassege = () => {
-        props.store.dispatch(addMassegeCreate());
+    let onAddMassege = () => {
+        props.addMassegeCreate();
     }
 
     let onMessageChange = (e) => {
         let body = e.target.value;
-        props.store.dispatch(NewMessageTextCreate(body));
+        props.NewMessageText(body);
     }
 
 
@@ -58,7 +57,7 @@ const Dialogy = (props) => {
                     <label className={s.inputLabel}>
                         <input className={s.formInput} type="file"/>
                     </label>
-                    <button className={s.formBtn} onClick={addMassege}>Send</button>
+                    <button className={s.formBtn} onClick={onAddMassege}>Send</button>
                 </div>
 
             </div>

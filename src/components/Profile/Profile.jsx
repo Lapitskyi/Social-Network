@@ -10,7 +10,7 @@ const Profile = (props) => {
     return (
         <div>
             <Story/>
-            <MyPosts posts={props.profilePage.posts} dispatch={props.dispatch} newPostText={props.profilePage.newPostText}/>
+            <MyPosts store={props.store} />
             <Pagination/>
         </div>)
 }

@@ -19,9 +19,6 @@ const Post = (props) => {
                     <li className={s.actionPostItem}> {props.dislikeCount} </li>
                 </ul>
             </div>
-
-
-
         </div >
     )
 }
