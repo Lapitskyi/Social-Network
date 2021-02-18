@@ -1,0 +1,21 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.item {
+}
+
+.item + .item {
+    margin-top: 10px;
+}
+
+.link {
+    color: #fff;
+}
+
+.link.active {
+    color: goldenrod;
+}

@@ -7,20 +7,20 @@ import s from './Dialogy.module.css';
 
 
 const Dialogy = (props) => {
-    let state = props.dialogPage;
 
 
-    let dialogsArray = state.dialogs.map((dialog) =>
+    let dialogsArray = props.dialogs.map((dialog) =>
         <DialogsItem
+            key={dialog.id}
             img={dialog.img}
             name={dialog.name}
             id={dialog.id}/>);
 
 
-    let messagesArray = state.messages.map((message) =>
+    let messagesArray = props.messages.map((message) =>
         <MessagesItem
             message={message.massege}
-
+            key={message.id}
             id={message.id}/>);
 
 
@@ -50,7 +50,7 @@ const Dialogy = (props) => {
                 <div className={s.form}>
                     <textarea className={s.formText}
                               onChange={onMessageChange}
-                              value={state.newMessageText}
+                              value={props.newMessageText}
                               placeholder="Enter text"/>
 
 

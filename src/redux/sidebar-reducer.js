@@ -1,15 +1,18 @@
 //для иницилизации ветки в store если данные не прийдут
+import React from "react";
+
 let initialState = {
-    users: [
+    users:
         {
             id: 1,
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYAKxP8ZI4XF374UokrFU56J3LUAe1miVGQg&usqp=CAU",
             photo: "https://via.placeholder.com/150",
             lastName: " lastName",
             firstName: " firstName",
             status: "status",
 
         }
-    ],
+    ,
 
     social: [
         {
@@ -31,10 +34,10 @@ let initialState = {
 };
 
 
-const navBarReducer = (state = initialState, action) => {
+const sidebarReducer = (state = initialState, action) => {
     return state;
 
 }
 
 
-export default navBarReducer;
+export default sidebarReducer;

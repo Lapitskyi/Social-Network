@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post/Post';
+
 import NewPostContainer from "./NewPost/NewPostContainer";
 
 
@@ -8,9 +9,8 @@ import s from './MyPosts.module.css';
 
 
 const MyPosts = (props) => {
-    let state = props.store.getState();
 
-    let postsArray = state.profilePage.posts.map((post) =>
+    let postsArray = props.profilePage.posts.map((post) =>
         <Post
             message={post.message}
             date={post.date}
@@ -20,7 +20,7 @@ const MyPosts = (props) => {
     return (
         <div >
             <div className={s.newPost}>
-                <NewPostContainer  store={props.store} />
+                <NewPostContainer />
             </div>
 
             {postsArray}

@@ -1,8 +1,9 @@
 import React from 'react';
-import MyPosts from './MyPosts/MyPosts';
+
 import Pagination from './Pagination/Pagination';
 import Story from './Story/Story';
-import s from './Profile.module.css';
+
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 
 const Profile = (props) => {
@@ -10,7 +11,7 @@ const Profile = (props) => {
     return (
         <div>
             <Story/>
-            <MyPosts store={props.store} />
+            <MyPostsContainer />
             <Pagination/>
         </div>)
 }

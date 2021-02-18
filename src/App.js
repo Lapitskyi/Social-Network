@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import NavBar from './components/Navbar/NavBar';
+import SideBar from './components/SideBar/SideBar';
 import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/Footer';
 
@@ -18,10 +18,10 @@ const App = (props) => {
 
         <div className="app-wrapper">
             <Header/>
-            <NavBar store={props.store}/>
+            <SideBar />
             <div className="app-wrapper-content">
                 <Route path='/profile'
-                       render={() => <Profile  />}/>
+                       render={() => <Profile />}/>
 
                 <Route path='/dialogy'
                        render={() => <DialogyContainer />}/>

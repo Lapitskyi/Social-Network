@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc833251-76db-469b-89e7-d50dfdf8c855" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StoreContecxt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogy/DialogyContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPostContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideBar/NavMenu/NavMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideBar/SideBar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideBar/UserData/UserData.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideBar/UserData/UserData.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideBar/UserData/UserDataContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogy/DialogsItem/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/DialogsItem/DialogsItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContecxt.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/Dialogy.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogy/DialogyContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogy/DialogyContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar/SideBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/NavBar.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/NewPost/NewPostContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar/NavMenu/NavMenu.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/navbar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +36,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1lqjTZ2fjz9pLKdqjeaiEOJi7vh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -48,7 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/SideBar/UserData" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,12 +66,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\react\social\my-app\src\components\Dialogy" />
-      <recent name="C:\react\social\my-app\src\components\Profile\MyPosts\NewPost" />
-      <recent name="C:\react\01\my-app\src\redux" />
-      <recent name="C:\react\01\my-app\src\components\Music" />
+      <recent name="C:\react\social\my-app\src\components\SideBar\UserData" />
+      <recent name="C:\react\social\my-app\src\components\Profile\MyPosts\Post" />
+      <recent name="C:\react\social\my-app\src\components\Profile\MyPosts" />
+      <recent name="C:\react\social\my-app\src\components\SideBar\UserData\UserSocial" />
+      <recent name="C:\react\social\my-app\src\components\SideBar\UserData\UserItem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\react\social\my-app\src\components\Profile\MyPosts" />
+      <recent name="C:\react\social\my-app\src\components\SideBar\NavMenu" />
       <recent name="C:\react\01\my-app\src\components\News" />
     </key>
   </component>
@@ -107,7 +118,8 @@
       <workItem from="1610895800396" duration="2909000" />
       <workItem from="1613600023913" duration="2934000" />
       <workItem from="1613642580160" duration="3884000" />
-      <workItem from="1613658108204" duration="5961000" />
+      <workItem from="1613658108204" duration="14035000" />
+      <workItem from="1613681637431" duration="9412000" />
     </task>
     <servers />
   </component>
@@ -125,5 +137,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

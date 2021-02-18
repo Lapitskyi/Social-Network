@@ -2,29 +2,29 @@ import React from 'react';
 import Dialogy from "./Dialogy";
 
 import {addMassegeCreate, NewMessageTextCreate} from "../../redux/dialogs-reducer";
+import {connect} from "react-redux";
 
 
-const DialogyContainer = (props) => {
-    let state = props.store.getState().dialogPage;
-
-
-    let addMassege = () => {
-        props.store.dispatch(addMassegeCreate());
+let mapStateToProps = (state) => {
+    return {
+        dialogs:state.dialogPage.dialogs,
+        messages:state.dialogPage.messages,
+        newMessageText: state.dialogPage.newMessageText
     }
+}
 
-    let onMessageChange = (body) => {
-        props.store.dispatch(NewMessageTextCreate(body));
+let mapDispatchToProps = (dispatch) => {
+    return {
+        addMassegeCreate: () => {
+           dispatch(addMassegeCreate());
+        },
+        NewMessageText: (body) => {
+            dispatch(NewMessageTextCreate(body));
+        }
+
     }
-
-
-    return (
-       <Dialogy
-           NewMessageText={onMessageChange}
-           addMassegeCreate={addMassege}
-           dialogPage={state}
-       />
-    )
 }
 
 
+const DialogyContainer = connect(mapStateToProps, mapDispatchToProps)(Dialogy);
 export default DialogyContainer;

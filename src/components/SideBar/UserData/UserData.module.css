@@ -1,14 +1,3 @@
-.nav {
-    width: 300px;
-
-    background-color: #202020;
-    grid-area: n;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: space-around; */
-}
 
 .img {
     display: block;
@@ -59,25 +48,4 @@
     width: 25px;
     height: 25px;
     background-color: #fff;
-}
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 25px;
-}
-
-.item {
-}
-
-.item + .item {
-    margin-top: 10px;
-}
-
-.link {
-    color: #fff;
-}
-
-.link.active {
-    color: goldenrod;
 }
