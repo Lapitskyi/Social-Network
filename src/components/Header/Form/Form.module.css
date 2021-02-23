@@ -1,12 +1,19 @@
 .form {
     display: flex;
     align-items: flex-end;
+
 }
 .form__label {
     color: #ffffff;
 }
-.form__input {
+.form__label +.form__label {
+    margin-left: 25px;
 }
+
+.form__input {
+    display: block;
+}
+
 
 .form__btn {
     align-items: start;
