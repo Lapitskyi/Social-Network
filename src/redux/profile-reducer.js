@@ -18,10 +18,10 @@ let initialState = {
 };
 
 
-const profileReducer = (state=initialState, action) => {
+const profileReducer = (state = initialState, action) => {
 
     switch (action.type) {
-        case ADD_POST:
+        case ADD_POST: {
             let newPost = {
                 id: 3,
                 message: state.newPostText,
@@ -30,16 +30,21 @@ const profileReducer = (state=initialState, action) => {
                 dislikeCount: "0"
             };
 
-            if (state.newPostText !== '') {
-                state.posts.push(newPost);
-                state.newPostText = '';
-            }
-            return state;
+            return {
+                ...state,
+                posts: [...state.posts, newPost],
+                newPostText: ''
+            };
 
-        case NEW_POST:
-            state.newPostText = action.newText;
-            return state;
+        }
 
+        case NEW_POST: {
+            return {
+                ...state,
+                newPostText: action.newText
+            };
+
+        }
         default:
             return state;
 

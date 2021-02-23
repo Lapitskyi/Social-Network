@@ -1,0 +1,26 @@
+.inner{}
+.items{
+    display: flex;
+}
+
+.items+.items{
+    margin-top: 10px;
+}
+.img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999;
+}
+.btn{
+    display: block;
+    margin-top: 10px;
+}
+.list{
+    margin-left: 10px;
+    padding: 5px 0;
+}
+.list__item{}
+.list__item+.list__item{
+    margin-top: 10px;
+}
