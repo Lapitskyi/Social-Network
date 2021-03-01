@@ -1,10 +1,14 @@
-.inner{}
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+}
 .items{
+    width: 50%;
     display: flex;
 }
 
 .items+.items{
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .img{
     display: block;
@@ -22,5 +26,21 @@
 }
 .list__item{}
 .list__item+.list__item{
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.list__pagination{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: flex-end;
+}
+.list__paginationItem{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.active{
+    font-size: 20px;
+    color: gold;
 }

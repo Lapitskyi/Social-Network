@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc833251-76db-469b-89e7-d50dfdf8c855" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersC.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Form/Form.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersC.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
@@ -109,7 +108,9 @@
       <workItem from="1613725584880" duration="111000" />
       <workItem from="1614001166970" duration="5663000" />
       <workItem from="1614075588528" duration="8347000" />
-      <workItem from="1614096881332" duration="12916000" />
+      <workItem from="1614096881332" duration="13632000" />
+      <workItem from="1614156854150" duration="1005000" />
+      <workItem from="1614597088709" duration="10716000" />
     </task>
     <servers />
   </component>

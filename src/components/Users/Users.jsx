@@ -14,6 +14,7 @@ const Users = (props) => {
 
 
     return (<div className={s.inner}>
+
             {
                 props.users.map(u =>
                     <div className={s.items} key={u.id}>
