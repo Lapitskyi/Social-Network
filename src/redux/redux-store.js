@@ -8,13 +8,16 @@ import usersReducer from "./users-reducer";
 
 //обьединение всех Reducer
 let reducers = combineReducers({
-    profilePage:profileReducer,
-    dialogPage:dialogsReducer,
-    sideBar:sidebarReducer,
-    usersPage:usersReducer,
+    profilePage: profileReducer,
+    dialogPage: dialogsReducer,
+    sideBar: sidebarReducer,
+    usersPage: usersReducer,
 });
 
 //создание store
 let store = createStore(reducers);
+
+
+window.store = store;
 
 export default store;

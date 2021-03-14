@@ -2,14 +2,16 @@ import React from 'react';
 import s from "./SideBar.module.css"
 
 import NavMenu from "./NavMenu/NavMenu";
-import UserDataContainer from "./UserData/UserDataContainer";
+import ProfileUser from "../Profile/ProfileUser/ProfileUser";
+
+
 
 
 const SideBar = (props) => {
 
     return (
         <div className={s.sidebar}>
-            <UserDataContainer/>
+            <ProfileUser profile={props.profile} users={props.users}/>
             <NavMenu/>
         </div>
     )

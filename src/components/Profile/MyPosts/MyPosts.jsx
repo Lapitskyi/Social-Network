@@ -10,7 +10,7 @@ import s from './MyPosts.module.css';
 
 const MyPosts = (props) => {
 
-    let postsArray = props.profilePage.posts.map((post) =>
+    let postsArray = props.posts.map((post) =>
         <Post
             message={post.message}
             date={post.date}

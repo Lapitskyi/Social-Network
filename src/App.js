@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import SideBar from './components/SideBar/SideBar';
-import Profile from './components/Profile/Profile';
+
 import Footer from './components/Footer/Footer';
 
 import News from "./components/News/News";
@@ -12,6 +12,8 @@ import Settings from "./components/Settings/Settings";
 import DialogyContainer from "./components/Dialogy/DialogyContainer";
 
 import UsersContainer from "./components/Users/UsersContainer";
+import ProfileContainer from "./components/Profile/ProfileContainer";
+import SideBarContainer from "./components/SideBar/SideBarContainer";
 
 
 const App = (props) => {
@@ -20,10 +22,10 @@ const App = (props) => {
 
         <div className="app-wrapper">
             <Header/>
-            <SideBar />
+            <SideBarContainer />
             <div className="app-wrapper-content">
-                <Route path='/profile'
-                       render={() => <Profile />}/>
+                <Route path='/profile/:userId'
+                      render={() => <ProfileContainer />}/>
 
                 <Route path='/dialogy'
                        render={() => <DialogyContainer />}/>
