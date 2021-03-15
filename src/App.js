@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import SideBar from './components/SideBar/SideBar';
+
 
 import Footer from './components/Footer/Footer';
 
@@ -14,6 +13,7 @@ import DialogyContainer from "./components/Dialogy/DialogyContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 import SideBarContainer from "./components/SideBar/SideBarContainer";
+import HeaderContainer from "./components/Header/HeaderContainer";
 
 
 const App = (props) => {
@@ -21,7 +21,7 @@ const App = (props) => {
     return (
 
         <div className="app-wrapper">
-            <Header/>
+            <HeaderContainer/>
             <SideBarContainer />
             <div className="app-wrapper-content">
                 <Route path='/profile/:userId'

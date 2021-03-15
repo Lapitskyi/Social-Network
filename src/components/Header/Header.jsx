@@ -1,24 +1,23 @@
 import React from 'react';
-import Form from './Form/Form';
+
 import s from './Header.module.css';
+import {NavLink} from "react-router-dom";
 
 
-
-
-
-
-
-const Header = () => {
+const Header = (props) => {
     return (
         <header className={s.header}>
 
             <div className={s.header__inner}>
+                <img className={s.header__logo} src="https://via.placeholder.com/120x30"/>
 
-                <img className={s.header__logo} src="https://via.placeholder.com/120x30" />
 
-                <Form />
+                <div className={s.loginBlock}>
+                    {props.isAuth ? props.login
+                        : <NavLink className={s.header__link} to={"/login"}>Login</NavLink>
+                    }
+                </div>
 
-                <a className={s.header__link} href="#">Забыли пароль?</a>
             </div>
 
         </header>)
