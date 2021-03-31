@@ -1,7 +1,8 @@
+import {usersAPI} from "../API/api";
+
 const ADD_POST = 'ADD-POST';
 const NEW_POST = 'UPDATE-NEW-POST-TEXT';
 const SET_USER_PROFILE = 'SET_USER_PROFILE';
-
 
 //для иницилизации ветки в store если данные не прийдут
 let initialState = {
@@ -45,7 +46,6 @@ let initialState = {
     profile: undefined
 };
 
-
 const profileReducer = (state = initialState, action) => {
 
     switch (action.type) {
@@ -63,7 +63,6 @@ const profileReducer = (state = initialState, action) => {
                 posts: [...state.posts, newPost],
                 newPostText: ''
             };
-
         }
 
         case NEW_POST: {
@@ -71,21 +70,17 @@ const profileReducer = (state = initialState, action) => {
                 ...state,
                 newPostText: action.newText
             };
-
         }
 
-        case SET_USER_PROFILE:{
+        case SET_USER_PROFILE: {
             return {
                 ...state, profile: action.profile
             };
         }
 
-
         default:
             return state;
-
     }
-
 }
 
 
@@ -94,5 +89,13 @@ export const updateNewPostTextActionCreate = (text) => ({
     type: NEW_POST, newText: text
 })
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});
+
+export const getProfile = (userId) => {
+    return (dispatch) => {
+        usersAPI.getProfile(userId).then(data => {
+            dispatch(setUserProfile(data));
+        });
+    }
+}
 
 export default profileReducer;
